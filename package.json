@@ -1,5 +1,6 @@
 {
-  "private": true,
+  "name": "google-api-helper",
+  "version": "0.1.0",
   "dependencies": {
     "googleapis": "^34.0.0"
   }

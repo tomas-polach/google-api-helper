@@ -25,8 +25,9 @@ class Spreadsheet {
               error
             )
             reject(error)
+          } else {
+            resolve(result.data.values)
           }
-          resolve(result.data.values)
         }
       )
     })
@@ -60,8 +61,9 @@ class Spreadsheet {
               error
             )
             reject(error)
+          } else {
+            resolve(result.data)            
           }
-          resolve(result.data)
         }
       )
     })
